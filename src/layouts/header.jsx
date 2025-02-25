@@ -103,7 +103,7 @@ function Navbar({ onOpenSidebar }) {
                   </li>
                   <li>
                     <a
-                      href="wishlist"
+                      href="/wishlist"
                       className="group relative my-1 flex items-center transition hover:scale-105 md:mx-1"
                     >
                       <HiOutlineHeart className="-mt-[2px] me-[6px] text-2xl font-bold text-darken group-hover:text-default md:text-3xl" />
@@ -119,7 +119,7 @@ function Navbar({ onOpenSidebar }) {
                   </li>
                   <li>
                     <a
-                      href="cart"
+                      href="/cart"
                       className="group relative my-1 flex items-center transition hover:scale-105 md:mx-1"
                     >
                       <HiOutlineShoppingCart className="me-[6px] text-[22px] text-darken group-hover:text-default md:text-[28px]" />
@@ -217,11 +217,11 @@ function TopNavigate() {
   return (
     <div className="static top-0 z-[9999] mb-24 flex w-full justify-between bg-green-100 px-2 md:px-6">
       <div className="relative flex h-9 items-center font-lato text-slate-600">
-        <a className="text-xs font-normal" href="login">
+        <a className="text-xs font-normal" href="/login">
           Sign in
         </a>
         <div class="divider"></div>
-        <a href="tracking" className="text-xs font-normal">
+        <a href="/tracking" className="text-xs font-normal">
           Order Tracking
         </a>
         <div class="divider hidden md:block"></div>
@@ -298,26 +298,26 @@ function NavMenu() {
         <li className="nav-child">
           <a className="group">
             <Dropdown label="Dropdown" inline>
-              <Dropdown.Item href="product">Vegetable</Dropdown.Item>
-              <Dropdown.Item href="product">Fruit</Dropdown.Item>
-              <Dropdown.Item href="product">Meat and Seafood</Dropdown.Item>
-              <Dropdown.Item href="product">Snack</Dropdown.Item>
-              <Dropdown.Item href="product">Drink</Dropdown.Item>
-              <Dropdown.Item href="product">Fast Food</Dropdown.Item>
+              <Dropdown.Item href="/product">Vegetable</Dropdown.Item>
+              <Dropdown.Item href="/product">Fruit</Dropdown.Item>
+              <Dropdown.Item href="/product">Meat and Seafood</Dropdown.Item>
+              <Dropdown.Item href="/product">Snack</Dropdown.Item>
+              <Dropdown.Item href="/product">Drink</Dropdown.Item>
+              <Dropdown.Item href="/product">Fast Food</Dropdown.Item>
             </Dropdown>
           </a>
         </li>
         <li className="nav-child">
-          <a href="product">Product</a>
+          <a href="/product">Product</a>
         </li>
         <li className="nav-child">
-          <a href="about">About</a>
+          <a href="/about">About</a>
         </li>
         <li className="nav-child">
           <HashLink to="/about#contact">Contact</HashLink>
         </li>
         <li className="nav-child">
-          <a href="blogs">Blog</a>
+          <a href="/blogs">Blog</a>
         </li>
       </ul>
     </nav>
