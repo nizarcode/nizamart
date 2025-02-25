@@ -16,13 +16,13 @@ createRoot(document.getElementById("root")).render(
   <HashRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="product" element={<Product />} />
-      <Route path="about" element={<About />} />
-      <Route path="blogs" element={<Blogs />} />
-      <Route path="tracking" element={<Tracking />} />
-      <Route path="login" element={<Login />} />
-      <Route path="cart" element={<Cart />} />
-      <Route path="wishlist" element={<Wishlist />} />
+      <Route path="/product" element={<Product />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/blogs" element={<Blogs />} />
+      <Route path="/tracking" element={<Tracking />} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/cart" element={<Cart />} />
+      <Route path="/wishlist" element={<Wishlist />} />
       <Route path="/*" element={<PageNotFound />} />
     </Routes>
   </HashRouter>,
