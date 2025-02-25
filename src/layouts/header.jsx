@@ -173,27 +173,27 @@ function Sidebar({ onCloseSidebar }) {
             </div>
             <ul className="mt-5 justify-center font-sand text-base font-bold">
               <li className="nav-child">
-                <a href="/">Home</a>
+                <a href="#">Home</a>
               </li>
               <li className="nav-child">
                 <a href="#" className="group">
                   <Dropdown label="Dropdown" inline>
-                    <Dropdown.Item href="product">Vegetable</Dropdown.Item>
-                    <Dropdown.Item href="product">Fruit</Dropdown.Item>
-                    <Dropdown.Item href="product">
+                    <Dropdown.Item href="/product">Vegetable</Dropdown.Item>
+                    <Dropdown.Item href="/product">Fruit</Dropdown.Item>
+                    <Dropdown.Item href="/product">
                       Meat and Seafood
                     </Dropdown.Item>
-                    <Dropdown.Item href="product">Snack</Dropdown.Item>
-                    <Dropdown.Item href="product">Drink</Dropdown.Item>
-                    <Dropdown.Item href="product">Fast Food</Dropdown.Item>
+                    <Dropdown.Item href="/product">Snack</Dropdown.Item>
+                    <Dropdown.Item href="/product">Drink</Dropdown.Item>
+                    <Dropdown.Item href="/product">Fast Food</Dropdown.Item>
                   </Dropdown>
                 </a>
               </li>
               <li className="nav-child">
-                <a href="product">Product</a>
+                <a href="/product">Product</a>
               </li>
               <li className="nav-child">
-                <a href="about">About</a>
+                <a href="/about">About</a>
               </li>
               <li className="nav-child">
                 <HashLink to="/about#contact" onClick={onCloseSidebar}>
@@ -201,10 +201,10 @@ function Sidebar({ onCloseSidebar }) {
                 </HashLink>
               </li>
               <li className="nav-child">
-                <a href="blogs">Blog</a>
+                <a href="/blogs">Blog</a>
               </li>
               <li className="nav-child">
-                <a href="login">Login</a>
+                <a href="/login">Login</a>
               </li>
             </ul>
           </div>
